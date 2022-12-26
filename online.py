@@ -89,7 +89,7 @@ def getsoup():
             
 def combine():
     # setting the path for joining multiple files
-    files = os.path.join("C:\\Users\\davon\\Desktop\\projects\\Hypixel Stalker", "users_page*.csv")
+    files = os.path.join(os.path.dirname(os.path.abspath(__file__)), "users_page*.csv")
     # list of merged files returned
     files = glob.glob(files)
     # joining files with concat and read_csv
