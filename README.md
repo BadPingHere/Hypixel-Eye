@@ -8,3 +8,9 @@ Hypixel Eye is a project I made mostly because I was bored yesterday. This scrap
 - **Time**: This is the time since it has been updated. The forums show what offline people has done in the last 20 minutes, so we can grab those aswell.
 
 # Installation
+
+1. Download the repository.
+2. Download all depenecies. You can do this with `pip install -r requirements.txt`.
+3. Open online.py in a text editor, and go to line 14 of the file . change `browser_cookie3.firefox` to your main browser. Ex: `browser_cookie3.chrome` or `browser_cookie3.safari`.
+4. Log into hypixel.net on the browser specified above.
+5. Run the script and wait.
